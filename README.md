@@ -1,11 +1,37 @@
 # Automated Plant Disease Detection
 
-## 🚀 Project Overview
-A multi-stage pipeline for detecting plant diseases with the **PlantVillage** dataset (≈54 k images, 38 classes).  
-We begin with simple baselines (Perceptron + K-Means) and progress to a multi-task CNN (species + disease heads) with rich interpretability analyses.
+## 🍃 Binary Classification of Apple Leaf Diseases with CNN
 
-## 📂 Repository Structure
+This project demonstrates a deep learning pipeline for binary classification of apple leaves as either **Healthy** or **Diseased** using Convolutional Neural Networks (CNNs). It is built using PyTorch and fine-tunes a pretrained ResNet18 model on a subset of the PlantVillage dataset.
 
+##🔬 **Goal**: Automate plant disease detection and showcase the viability of binary classification for real-world agricultural applications.
+
+## 🧠 Model Architecture
+
+- Backbone: `ResNet18` pretrained on ImageNet
+- Final layer modified for binary classification
+- Loss function: `BCEWithLogitsLoss`
+- Optimizer: `Adam`
+- Framework: `PyTorch`
+
+---
+
+## 📈 Results
+
+- ✅ **Test Accuracy**: 96%
+- ✅ **Recall for Healthy Class**: 100%
+- 📉 Validation loss plateaued early, indicating slight overfitting
+
+Interactive Demo (legacy multiclass version): [🌐 View Demo](https://plantdiseasencml.vercel.app/)
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/leaf-disease-binary-classification.git
+   cd leaf-disease-binary-classification
 
 ## 🛠️ Installation
 > Assumes Python ≥ 3.8 and a CUDA-capable GPU (optional but recommended).
