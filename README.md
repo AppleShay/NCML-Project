@@ -1,6 +1,25 @@
 # Automated Plant Disease Detection
 
+
+# 🍃 Binary Classification of Apple Leaf Diseases with CNN
+
+This project demonstrates a deep learning pipeline for binary classification of apple leaves as either **Healthy** or **Diseased** using Convolutional Neural Networks (CNNs). It is built using PyTorch and fine-tunes a pretrained ResNet18 model on a subset of the PlantVillage dataset.
+
+> 🔬 **Goal**: Automate plant disease detection and showcase the viability of binary classification for real-world agricultural applications.
+
+---
+
+## 📂 Dataset
+
+We use a modified version of the [PlantVillage dataset](https://www.kaggle.com/datasets/emmarex/plantdisease), filtered to include:
+- Healthy apple leaves
+- Diseased apple leaves (merged from _Powdery_ and _Rust_)
+
+
+
+--- 
 ## 🍃 Binary Classification of Apple Leaf Diseases with CNN
+main
 
 This project demonstrates a deep learning pipeline for binary classification of apple leaves as either **Healthy** or **Diseased** using Convolutional Neural Networks (CNNs). It is built using PyTorch and fine-tunes a pretrained ResNet18 model on a subset of the PlantVillage dataset.
 
