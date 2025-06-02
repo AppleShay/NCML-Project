@@ -4,7 +4,7 @@
 
 This project demonstrates a deep learning pipeline for binary classification of apple leaves as either **Healthy** or **Diseased** using Convolutional Neural Networks (CNNs). It is built using PyTorch and fine-tunes a pretrained ResNet18 model on a subset of the PlantVillage dataset.
 
-##🔬 **Goal**: Automate plant disease detection and showcase the viability of binary classification for real-world agricultural applications.
+🔬 **Goal**: Automate plant disease detection and showcase the viability of binary classification for real-world agricultural applications.
 
 ## 🧠 Model Architecture
 
